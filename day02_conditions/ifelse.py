@@ -1,5 +1,10 @@
-age=int(input())
-if age>=18:
-  print("you are eligible to vote")
+age = int(input())
+
+if age < 13:
+    print("Child")
+elif age < 20:
+    print("Teenager")
+elif age < 60:
+    print("Adult")
 else:
-  print("you are not eligible to vote")
+    print("Senior citizen")
