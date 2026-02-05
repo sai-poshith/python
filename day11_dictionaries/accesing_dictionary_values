@@ -1,0 +1,2 @@
+print(student["name"])   # Sai
+print(student["age"])    # 21
